@@ -5,9 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
-    <title>Cute Cats</title>
+    <title>CatPhotoApp</title>
 </head>
 <body>
-    <h1>Hello Github</h1>
+    <h1>CatPhotoApp</h1>
+    <main>
+        <section>
+            <h2>Cat Photos</h2>
+            <p>Click here to view more <a target="_blank" href="www.google.com">cat photos</a>.</p>
+            <img src="https://appinventor.mit.edu/explore/sites/all/files/ai2tutorials/helloPurr/kitty.png" alt=" a cat image">
+        </section>
+        <section>
+            <h2>Cat Lists</h2>
+            <h3>things cats love:</h3>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="lasagana picture">
+            <p>cats <em>love</em> lasagana</p>
+            <h3>Top 3 things cats hate:</h3>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDNC-cNxpobktpuItAJ4Gc6en6gUObkOBktpGFnG_7Tg&s">
+            <p>Cats hate other cats</p>
+        </section>
+        <section>
+            <h2>Cat Form</h2>
+            <form action="www.google.com">
+              <fieldset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <label for="indoor-outdoor">
+                    <input id="indoor" type="radio" name="indoor-outdoor" value="indoor"indoor 
+                    <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"outdoor>
+                </label>
+              </fieldset>
+              <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <label for="Loving-Lazy-Energetic">
+                    <input id="Loving" type="checkbox" name="loving" value="loving">Loving
+                    <input id="Lazy" type="checkbox" name="lazy" value="Lazy">Lazy
+                    <input id="Energetic" type="checkbox" name="Energetic" value="Energetic">Energetic
+                </label>
+             </fieldset>
+                <input type="text" name="catphotourl" placeholder="cat photo URL">
+             <button type="submit">Submit</button>
+                
+            </form>
+        </section>
+    </main>
 </body>
 </html>
